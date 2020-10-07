@@ -1,0 +1,43 @@
+unit uConexaoDAO;
+
+interface
+
+uses FireDAC.Comp.Client, System.SysUtils;
+
+type
+  TBaseDAO = class
+
+  protected
+    FQuery: TFDQuery;
+    constructor Create;
+    destructor Destroy; override;
+
+    function ExecutarComando(pSQL: string): integer;
+    function RetornarDataSet(pSQL: string): TFDQuery;
+  end;
+
+implementation
+
+{ TBaseDAO }
+
+constructor TBaseDAO.Create;
+begin
+
+end;
+
+destructor TBaseDAO.Destroy;
+begin
+
+end;
+
+function TBaseDAO.ExecutarComando(pSQL: string): integer;
+begin
+
+end;
+
+function TBaseDAO.RetornarDataSet(pSQL: string): TFDQuery;
+begin
+
+end;
+
+end.

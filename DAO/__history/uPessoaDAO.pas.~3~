@@ -1,0 +1,15 @@
+unit uPessoaDAO;
+
+interface
+
+type
+
+  TPessoaDAO = class(TConexaoDAO)
+  private
+
+  public
+  end;
+
+implementation
+
+end.
